@@ -1,0 +1,122 @@
+html{
+	scroll-behavior:smooth;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url(img2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: calibri;
+}
+
+#navBar{
+	color: white;
+	width: 100%;
+	height: 7%;
+	opacity: 0.9;
+	border-radius: 8px;
+}
+#hed{
+	width: 40%;
+	margin-top: 1px;
+	margin-left:320px;
+	border: none;
+	outline: none;
+	height: 32px;
+	color: white;
+	font-size: 24px;
+}
+#detailsform{
+	width: 780px;
+	height: 550px;
+	border-radius: 5px;
+	padding: 18px 20px;
+	margin-left: 18.5%;
+	margin-top: 1%;
+	background-color: black;
+	opacity: 0.7;
+}
+
+#applicantForm{
+	color:white;
+	font-size: 14px;
+	table-layout:fixed;
+}
+#slots{
+	color:white;
+	font-size: 14px;
+	margin-top:5px;
+}
+.slotsb{
+	color:white;
+	font-size: 14px;
+	margin-top:5px;
+	visibility:hidden;
+}
+#submitslot{
+width: 23%;
+	margin-top: -130px;
+	margin-left:480px;
+	border: none;
+	outline: none;
+	height: 32px;
+	background: red;
+	color: white;
+	font-size: 13px;
+	border-radius: 20px;
+}
+#bookslot{
+	width:30%;
+	margin-top: 10px;
+	margin-left:480px;
+	border: none;
+	outline: none;
+	height: 32px;
+	background: red;
+	color: white;
+	font-size: 13px;
+	border-radius: 25px;
+}
+#applicantForm input[type="text"]{
+	background: none;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid blue;
+	height: 20px;
+	width: 300px;
+	color: white;
+	font-size: 12px;
+}
+#applicantForm input[type="date"]{
+	background: blue;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid blue;
+	height: 20px;
+	width: 300px;
+	color: white;
+	font-size: 12px;
+}
+
+#date{
+	color:white;
+}
+#applicantForm input[type="submit"]{
+	width: 25%;
+	margin-bottom: 20px;
+	margin-left:350px;
+	border: none;
+	outline: none;
+	height: 32px;
+	background: red;
+	color: white;
+	font-size: 13px;
+	border-radius: 20px;
+}
+
+#applicantForm input[type="submit"]:hover{
+	background: #b71c1c;
+}
+

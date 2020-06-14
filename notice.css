@@ -1,0 +1,38 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url(img5.jpg);
+	background-size: cover;
+	font-family: calibri;
+}
+.fill{
+	margin-top: 10%;
+	margin-left: 57%;
+	transform: translate(-50%, -50%);
+}
+.back{
+    width: 68%; 
+	height: 35%; 
+    background: rgb(75, 62, 62);
+    color: white;
+    font-size: 18;
+	margin-top: 5%;
+	margin-left: 16%;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.back input[type="button"]{
+    width: 35%;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+	height: 35px;
+	background: red;
+	color: white;
+	font-size: 13px;
+    border-radius: 20px;
+}
+.back input[type="button"]:hover{
+    background-color: #7c4444;
+}

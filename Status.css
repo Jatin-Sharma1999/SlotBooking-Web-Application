@@ -1,0 +1,75 @@
+html{
+	scroll-behavior:smooth;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url(img1.jpg);
+	background-size: cover;
+	font-family: calibri;
+}
+
+#navBar{
+	color: white;
+	width: 100%;
+	height: 7%;
+	opacity: 0.9;
+	border-radius: 8px;
+}
+#visaform1{	
+	width: 500px;
+	height: 435px;
+	border-radius: 5px;
+	padding: 18px 20px;
+	margin-left: 30.5%;
+	margin-top: 4%;
+	background-color: black;
+	opacity: 0.7;
+}
+
+#form1{
+	color: white;
+}
+
+#form1 input[type="text"], input[type="date"]{
+	background: none;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid blue;
+	height: 20px;
+	width: 200px;
+	color: white;
+	font-size: 12px;
+}
+
+#form1 select{
+	background: none;
+	color: white;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid blue;
+	height: 20px;
+	width: 200px;
+	font-size: 12px;
+}
+
+#form1 select option{
+	color: black;
+}
+
+#form1 input[type="submit"]{
+	width: 40%;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+	height: 35px;
+	background: red;
+	color: white;
+	font-size: 13px;
+	border-radius: 20px;
+}
+
+#form1 input[type="submit"]:hover{
+	background: #b71c1c;
+}

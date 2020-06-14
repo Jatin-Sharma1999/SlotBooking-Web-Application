@@ -1,0 +1,77 @@
+html{
+	scroll-behavior:smooth;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url(img4.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: calibri;
+}
+
+#navBar{
+	color: white;
+	width: 100%;
+	height: 7%;
+	opacity: 0.9;
+	border-radius: 8px;
+}
+
+#chec{
+	width: 820px;
+	height: 840px;
+	border-radius: 5px;
+	padding: 18px 20px;
+	margin-left: 19%;
+	margin-top: 1%;
+	background-color: black;
+}
+#visaForm{
+	color:white;
+	font-size: 14px;
+}
+
+#visaForm input[type="text"], input[type="date"]{
+	background: none;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid blue;
+	height: 20px;
+	width: 290px;
+	color: white;
+	font-size: 12px;
+}
+
+table select option{
+	color: black;
+	background: none;
+}
+
+#visaForm select{
+	background: none;
+	color: white;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid blue;
+	height: 20px;
+	width: 200px;
+	font-size: 12px;
+}
+
+#visaForm input[type="submit"]{
+	width: 20%;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+	height: 35px;
+	background: red;
+	color: white;
+	font-size: 13px;
+	border-radius: 20px;
+}
+
+#visaForm input[type="submit"]:hover{
+	background: #b71c1c;
+}
